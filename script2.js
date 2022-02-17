@@ -79,7 +79,7 @@ function createList() {
 
       //Uploads files to temporary folder on server
       formData.append("files", input.files[i]);
-      fetch('/DreamTechLLC/process.php', {
+      fetch('/process.php', {
         method: 'POST',
         body: formData,
       }).then((response) => {
