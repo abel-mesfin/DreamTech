@@ -15,9 +15,9 @@ $baseU = "0; URL=https://dreamtechllc.azurewebsites.net/";
 
 function dbConnect() {
 //Mysql connection info
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$servername = "127.0.0.1:50552";
+$username = "azure";
+$password = "6#vWHD_$";
 $dbname = "activity1";
 
 
