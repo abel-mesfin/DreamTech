@@ -9,8 +9,8 @@ The modules purpose is to create a html form that shows the user the required fi
 <?php
 
 //Base Website URL
-$baseE = "http://localhost:8888/DreamTechLLC/";
-$baseU = "0; URL=http://localhost:8888/DreamTechLLC/";
+$baseE = "https://dreamtechllc.azurewebsites.net/";
+$baseU = "0; URL=https://dreamtechllc.azurewebsites.net/";
 
 
 function dbConnect() {
