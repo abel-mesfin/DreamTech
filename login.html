@@ -1,0 +1,70 @@
+<!--
+Project Name: Milestone 3 Blog Post
+Version 3
+login.html module version 1
+Abel Mesfin 
+10/20/2020
+The modules purpose is to create a html form that shows the user the required fields for regiseration
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+    <title>Dream Tech Training</title>
+    <script src="index.js"></script>
+    
+    <script src="https://kit.fontawesome.com/27a3960bc7.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        form {
+            background-color: silver;
+            width: 500px;
+            margin-left: 100px;
+            margin-top: 200px;
+            align-items: center;
+            padding: 20px;
+        }
+
+        * {
+            font-family: Arial;
+            background-color:  rgb(25, 168, 187);
+            
+        }
+
+        .home {
+          position: absolute;
+         left:    0;
+         bottom:   0;
+         margin-bottom: 30px;
+         margin-left: 30px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+   <center>
+        <form action="./handlers/loginHandler.php" method="POST" action="">
+
+            Username: <input type="text" name="username" placeholder="Username"> <br>
+            Password: <input type="password" name="password" placeholder="Password"><br>
+            
+            <input type="submit" value="Login" name="login">
+        
+        </form>
+    </center>
+
+    <div class="home">
+    <a href="index.php"><button>Main Menu</button></a>
+    <a href="./passwordRecovery/forgot.php?ID=1"><button> Forgot my password</button></a>
+    <a href="./passwordRecovery/forgot.php?ID=2"><button> Forgot username</button></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!--
+Project Name: Milestone 3 Blog Post
+Version 3
+register.html module version 1
+Abel Mesfin 
+10/20/2020
+The modules purpose is to create a html form that shows the user the required fields for regiseration
+-->   
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form {
+                background-color:silver;
+                width: 500px;
+                margin-left: 100px;
+                margin-top: 200px;
+                align-items: center;
+                padding:20px;
+            }
+            * {
+                font-family:Arial;
+                background-color :rgb(25, 168, 187);
+            }
+
+            .home {
+                position: absolute;
+                left:    0;
+                bottom:   0;
+                margin-bottom: 30px;
+                margin-left: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <form action="./handlers/registerHandler.php" method="POST" action="">
+                First Name: <input type="text" name="first_name" > <br>
+                <!--<span class="error"><?php if (isset($nameError)) echo $nameError ?></span>  -->
+                Last Name: <input type="text" name="last_name"> <br>
+                E-mail: <input type="email" name="email"><br>
+                Username: <input type="text" name="username"><br>
+                Password: <input type="password" name="password"><br>
+                Confirm: <input type="password" name="confirm"><br>
+                Birthday: <input type="date" name="birthday"><br>
+                Organization: <input type="text" name="organiz"><br>
+                <input type="submit" value="Submit" name="submit_button">
+            </form>
+        </center>
+        <div class="home">
+            <a href="index.php"><button>Main Menu</button></a>
+        </div>
+    </body>
+</html>

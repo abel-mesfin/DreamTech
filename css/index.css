@@ -1,0 +1,262 @@
+        * {
+         box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(25, 168, 187);
+        }
+
+        .topnav {
+            overflow: visible;
+            background-color: #333;
+            position: fixed;
+            margin-right:0;
+            width:100%;
+            top:0;
+            margin-bottom:30px;
+            height: 80px;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            
+        }
+
+        .topnav .btnright{
+            float:right;
+            margin-right:30;
+            background-color: #333;
+            margin-top: 15px;
+        }
+
+        .topnav .btnleft{
+            float:left;
+            margin-right:30;
+            background-color: #333;
+            margin-top: 15px;
+        }
+
+        .topnav .navTitle{
+            
+            color:white;
+            margin-left:46%;
+            margin-top: 25px;
+        }
+    
+        .topnav a.active {
+            background-color: #333;
+            color: white;
+        }
+    
+    
+        .Header {
+            text-align: center;
+        }
+
+        .page{
+            margin-left:16%;
+            padding: 16px;
+            height:1000px;
+            margin-top:220px;
+        }
+
+        .page .searchField {
+            margin-left:-20%;
+            margin-top:20px;
+        }
+
+        /* Left column */
+        .leftcolumn {   
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: right;
+            width: 25%;
+            padding-left: 20px;
+            margin-bottom:0px;
+            height: 50%;
+            
+        }
+
+        .posts{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-top: 50px;
+            width:80%;
+            height: 180px;
+
+        }
+
+        .commentSection{
+            background-color: white;
+            padding: 20px;
+            width:80%;
+            height:7%;
+
+        }
+
+        .posts .biosec{
+            float:left;
+                
+        }
+
+        .posts .readMore{
+            
+            float:right;
+            margin-left:0px;
+            
+        }
+
+        .defaultimg {
+            background-color: #aaa;
+            width: 30%;
+            padding: 20px;
+            float:left;
+            margin-left:-10px;
+            margin-top:-10px;
+            margin-right:25px;
+        }
+
+        .fakeimg {
+            width: 33%;
+            padding: 10px;
+            margin-right:25px;
+            float:left;
+            margin-left:-20px;
+            margin-top:-20px;
+            }
+        .posts .time{
+            font-size:10px;
+            margin-top:-15px;
+        }
+
+        .posts .title{
+            margin-top:-21px;
+        }
+
+        .homepage{
+            margin-left:33%;
+            margin-top:-160px;
+            margin-bottom:100px;
+            font-size:25px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .search{
+            margin-left:0%;
+        }
+
+        .commentInput{
+            margin-left:10%;
+            
+        }
+
+        .viewComment{
+            margin-left:0%;
+            margin-top:-10px;
+            font-size:10px;
+            
+        }
+
+        .comment{
+            margin-left:0%;
+            margin-top:-10px;
+            font-size:11px;
+            
+        }
+
+        .commentDiv{
+            font-size:10px;
+            display:inline-block;
+            
+        }
+
+        .commentDivName{
+            font-size:10px;
+            display:inline-block;
+            margin-right:5px;
+            font-weight: bold;
+
+            
+        }
+
+        .tagSubmit{
+            margin-left:10px;
+        }
+
+        .tagLabel{
+            margin-left:30%;
+        }
+
+        .yourLabel{
+            
+            margin-top:-2000px;
+        }
+
+        .dropdown {
+        float: left;
+        overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        }
+
+        .topnav a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+
+        .dropdown-content a:hover {
+        background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        @media screen and (max-width: 690px) {
+            .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+            }
+        }
+

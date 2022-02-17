@@ -1,0 +1,31 @@
+body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(25, 168, 187);
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 300;
+        margin-left:400;
+    }
+
+    .topnav a.active {
+        background-color: rgb(12, 99, 110);
+        color: white;
+        
+    }
+
+    .Header {
+        text-align: center;
+    }
