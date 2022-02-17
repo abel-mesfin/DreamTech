@@ -249,13 +249,13 @@ if(empty(getUserId()) ): ?>
 
                 echo ' <div class="row"> <div class="leftcolumn"> <div class="posts">';
 
-                if(empty($posts[$x]['image_name'])): 
+                //if(empty($posts[$x]['image_name'])): 
 
-                    echo '<div class="defaultimg" style="height:160px;"><center>N/A</center></div>';
-                 else: 
+                  //  echo '<div class="defaultimg" style="height:160px;"><center>N/A</center></div>';
+                // else: 
                 
                     echo '<img height="150" width="200" src="media/'.$files_arr[0].'">';
-                endif;
+                //endif;
                  
                 
                 echo ' <div class="title"> <h1>' . $posts[$x]['Title'] . '</h1> </div>' ;
